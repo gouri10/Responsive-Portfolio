@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Layout</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+        <header class="fixed-top">
+            <div class="container" id="headcontent">
+                <nav class="navbar navbar-expand-lg placenav">
+                    <h1 class="bg-info text-white">Gouri Peddinti</h1>
+                    <ul class="navbar-nav ml-auto" id="navmenu">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        </li>
+                    </ul>
+
+                </nav>
+        </div>
+    </header>
+
+    <div class="space"></div>
+
+    <div class="container bg-white" id="maincontent">
+        <h2>Contact</h2>
+        <form>
+            <div class="form-group">
+                <label for="contactFormNameInput">Name</label>
+                <input type="text" class="form-control" id="contactFormNameInput">
+            </div>
+            <div class="form-group">
+                <label for="contactFormEmailInput">Email address</label>
+                <input type="email" class="form-control" id="contactFormEmailInput" placeholder="name@example.com">
+            </div>
+            <div class="form-group">
+                <label for="controlFormMessageInput">Message</label>
+                <textarea class="form-control" id="controlFormMessageInput" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+    <div class="space"></div>
+
+    <div class="fixed-bottom" id="footerdiv">
+        <footer class="fixed-bottom text-center">
+            Copyright@
+        </footer>
+    </div>
+</body>
+
+</html>
